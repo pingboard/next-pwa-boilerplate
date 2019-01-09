@@ -1,0 +1,25 @@
+{
+  "short_name": "Next PWA",
+  "name": "Next PWA Boilerplate",
+  "icons": [
+    {
+      "src": "/static/graphics/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/graphics/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/graphics/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#fff",
+  "background_color": "#000"
+}

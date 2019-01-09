@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "name": "next-pwa-boilerplate",
+  "alias": ["next-pwa-boilerplate"],
+  "scale": {
+    "bru1": {
+      "min": 1,
+      "max": "auto"
+    },
+    "sfo1": {
+      "min": 1,
+      "max": "auto"
+    }
+  }
+}
