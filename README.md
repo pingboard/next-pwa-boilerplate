@@ -33,6 +33,7 @@ Must have [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) a
 2. Install Zeit’s Now CLI: `npm install -g now`
 3. Change the name and alias on `now.json` to your unique string. If you don’t have a full domain with ZEIT, `yourUniqueString.now.sh` will the domain.
 4. Replace the `next-pwa-boilerplate` inside `https://next-pwa-boilerplate.now.sh` in `./pages/_document.js` with the same string as the previous step.
+5. Replace the `https://next-pwa-boilerplate.now.sh` in the deploy script of `package.json` with your domain (`yourUniqueString.now.sh`).
 
 ### Deploy
 

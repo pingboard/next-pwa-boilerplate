@@ -5,7 +5,7 @@
   "main": "server/index.js",
   "scripts": {
     "build": "next build",
-    "deploy": "now && now alias",
+    "deploy": "now && now alias && now scale next-pwa-boilerplate.now.sh 1 auto",
     "dev": "nodemon -w server/**/*",
     "start": "NODE_ENV=production node server/index.js"
   },
