@@ -7,9 +7,7 @@ Next.js PWA Boilerplate starts your progressive web app off with a perfect Googl
 - [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces
 - [Styled Components](https://www.styled-components.com/) - Use the best bits of ES6 and CSS to style your apps without stress
 - [Next.js](https://nextjs.org/) - A minimalistic framework for server-rendered React applications
-- [Node.js](https://nodejs.org) for the server
-- [Express.js](https://expressjs.com/) for the server’s routing
-- [ZEIT Now](https://zeit.co/now) for hosting the app on the web
+- [ZEIT Now 2](https://zeit.co/now) for hosting the app on the web with auto-scaling, auto-renewing of SSL certs, and the ability to add any lambda functions in any other language
 
 ## Run locally
 
@@ -33,7 +31,6 @@ Must have [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) a
 2. Install Zeit’s Now CLI: `npm install -g now`
 3. Change the name and alias on `now.json` to your unique string. If you don’t have a full domain with ZEIT, `yourUniqueString.now.sh` will the domain.
 4. Replace the `next-pwa-boilerplate` inside `https://next-pwa-boilerplate.now.sh` in `./pages/_document.js` with the same string as the previous step.
-5. Replace the `https://next-pwa-boilerplate.now.sh` in the deploy script of `package.json` with your domain (`yourUniqueString.now.sh`).
 
 ### Deploy
 
