@@ -1,6 +1,6 @@
 {
   "name": "next-pwa-boilerplate",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Start your progressive web app off with a perfect Google Lighthouse score.",
   "main": "server/index.js",
   "scripts": {
@@ -21,11 +21,11 @@
   "homepage": "https://next-pwa-boilerplate.now.sh",
   "dependencies": {
     "isomorphic-unfetch": "^3.0.0",
-    "next": "^7.0.2",
+    "next": "^8.0.1",
     "next-offline": "^3.3.1",
     "prop-types": "^15.6.2",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
     "react-modal": "^3.8.1",
     "styled-components": "^4.1.3"
   },

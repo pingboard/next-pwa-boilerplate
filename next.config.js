@@ -2,9 +2,10 @@
 // Network-first strategy means that if there is no internet connection,
 // the browser will use files previously saved locally to the user’s device instead.
 // AKA Offline Mode!
-const withOffline = moduleExists("next-offline") ? require("next-offline") : {};
+const withOffline = require("next-offline");
 
 const nextConfig = {
+  target: "serverless",
   workboxOpts: {
     swDest: "static/service-worker.js",
     runtimeCaching: [
@@ -27,14 +28,4 @@ const nextConfig = {
   }
 };
 
-module.exports = moduleExists("next-offline")
-  ? withOffline(nextConfig)
-  : nextConfig;
-
-function moduleExists(name) {
-  try {
-    return require.resolve(name);
-  } catch (error) {
-    return false;
-  }
-}
+module.exports = withOffline(nextConfig);
