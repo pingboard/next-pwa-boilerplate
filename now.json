@@ -2,21 +2,11 @@
   "version": 2,
   "name": "next-pwa-boilerplate",
   "alias": ["next-pwa-boilerplate"],
+  "builds": [{ "src": "package.json", "use": "@now/next" }],
   "routes": [
     {
       "src": "^/service-worker.js$",
-      "dest": "/_next/static/service-worker.js",
-      "headers": {
-        "cache-control": "public, max-age=43200, immutable",
-        "Service-Worker-Allowed": "/"
-      }
+      "dest": "/_next/static/service-worker.js"
     }
-  ],
-  "builds": [
-    {
-      "src": "next.config.js",
-      "use": "@now/next"
-    }
-  ],
-  "regions": ["all"]
+  ]
 }
