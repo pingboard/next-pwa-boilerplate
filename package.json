@@ -1,7 +1,7 @@
 {
-  "name": "next-pwa-boilerplate",
+  "name": "Jay Fallon - portfolio-2019-bis",
   "version": "1.3.0",
-  "description": "Start your progressive web app off with a perfect Google Lighthouse score.",
+  "description": "August 2019 version of my portfolio as a progressive web application",
   "main": "server/index.js",
   "scripts": {
     "build": "next build",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pingboard/next-pwa-boilerplate.git"
+    "url": "https://github.com/jayfallon/portfolio-2019-bis"
   },
-  "author": "James Y Rauhut <james@seejamescode.com> (https://seejamescode.com/)",
+  "author": "Jay Fallon <jayfallon@gmail.com> (https://jayfallon.net/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pingboard/next-pwa-boilerplate/issues"
+    "url": "https://github.com/jayfallon/portfolio-2019-bis/issues"
   },
-  "homepage": "https://next-pwa-boilerplate.now.sh",
+  "homepage": "https://jayfallon.net",
   "dependencies": {
     "isomorphic-unfetch": "^3.0.0",
     "next": "^9.0.2",
